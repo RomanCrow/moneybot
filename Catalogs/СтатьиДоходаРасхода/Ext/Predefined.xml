@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.7">
+	<Item id="b5ec276e-a5bc-4b5d-ba73-99739211a4fc">
+		<Name>ВзятиеВДолг</Name>
+		<Code>000000003</Code>
+		<Description>Взятие в долг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="30378de7-5220-408a-b605-388ec7e74270">
+		<Name>ВозвратДолга</Name>
+		<Code>000000004</Code>
+		<Description>Возврат долга</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="008e3383-ad5a-495e-b765-738ca74f1af9">
+		<Name>Прочее</Name>
+		<Code>000000001</Code>
+		<Description>Прочее</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="59897221-1832-4a7f-b71d-ee4cb5e6a1c0">
+		<Name>СведениеКОстатку</Name>
+		<Code>000000002</Code>
+		<Description>Сведение к остатку</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

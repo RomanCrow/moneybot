@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Button name="ОбработатьСообщения" id="1">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОбработатьСообщения</CommandName>
+			<ExtendedTooltip name="ОбработатьСообщенияРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<UsualGroup name="ГруппаОстатки" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа остатки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа остатки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОстаткиРасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<Button name="Остатки" id="3">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Остатки</CommandName>
+					<ExtendedTooltip name="ОстаткиРасширеннаяПодсказка" id="4"/>
+				</Button>
+				<InputField name="Период" id="5">
+					<DataPath>Период</DataPath>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="7"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПроверкаЧеков" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа проверка чеков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа проверка чеков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПроверкаЧековРасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<Button name="ПроверитьЧек" id="14">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПроверитьЧек</CommandName>
+					<ExtendedTooltip name="ПроверитьЧекРасширеннаяПодсказка" id="15"/>
+				</Button>
+				<InputField name="ДанныеШтрихкода" id="16">
+					<DataPath>ДанныеШтрихкода</DataPath>
+					<ContextMenu name="ДанныеШтрихкодаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДанныеШтрихкодаРасширеннаяПодсказка" id="18"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаЗагрузкаПрокси" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа загрузка прокси</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа загрузка прокси</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЗагрузкаПроксиРасширеннаяПодсказка" id="25"/>
+			<ChildItems>
+				<Button name="ЗагрузитьПрокси" id="10">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗагрузитьПрокси</CommandName>
+					<ExtendedTooltip name="ЗагрузитьПроксиРасширеннаяПодсказка" id="11"/>
+				</Button>
+				<InputField name="ПротоколПрокси" id="21">
+					<DataPath>ПротоколПрокси</DataPath>
+					<ContextMenu name="ПротоколПроксиКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="ПротоколПроксиРасширеннаяПодсказка" id="23"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ОбработкаДанных</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Период" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДанныеШтрихкода" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные штрихкода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>200</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПротоколПрокси" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Протокол прокси</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.ТипыПрокси</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбработатьСообщения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать сообщения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбработатьДанные</Action>
+		</Command>
+		<Command name="Остатки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Остатки</Action>
+		</Command>
+		<Command name="ЗагрузитьПрокси" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить прокси</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить прокси</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьПрокси</Action>
+		</Command>
+		<Command name="ОбновитьIAMЯндекс" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить IAM</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить IAMЯндекс</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>IAMЯндекс</Action>
+		</Command>
+		<Command name="ПроверитьЧек" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить чек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить чек</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьЧек</Action>
+		</Command>
+	</Commands>
+</Form>

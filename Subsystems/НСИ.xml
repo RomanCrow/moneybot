@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Subsystem uuid="7be8bcc1-7bc6-4092-9e94-a586b04a63d7">
+		<Properties>
+			<Name>НСИ</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>НСИ</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Кошельки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Прокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиПрихода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиРасхода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиОстатка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатьиДоходаРасхода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиСтатейДоходаРасхода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИДБота</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЧасовойПояс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СинхронизированныеДанные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиДетализации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиСведенияКОстатку</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресФайлаСПрокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.МинимальныйОстатокПрокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиПеремещения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИДПапкиЯндекс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.IAMТокенЯндекс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.OAUTHТокен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">906422e4-5363-41f5-b27d-3d155cc320e3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОсновнойПрокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеАвторизацииФНС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыПрокси</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>КлючиАнализа</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>
