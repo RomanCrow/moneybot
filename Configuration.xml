@@ -148,7 +148,6 @@
 			<CommonModule>СлужебныеПроцедурыСервер</CommonModule>
 			<CommonModule>СлужебныеПроцедурыКлиентСервер</CommonModule>
 			<CommonModule>ПроверкаЧеков</CommonModule>
-			<CommonModule>РасчетЗарплатыСервер</CommonModule>
 			<ScheduledJob>ОбработкаКоманд</ScheduledJob>
 			<ScheduledJob>ЕжедневныйОтчет</ScheduledJob>
 			<ScheduledJob>ЕжемесячныйОтчет</ScheduledJob>

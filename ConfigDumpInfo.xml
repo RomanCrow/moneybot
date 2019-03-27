@@ -67,19 +67,17 @@
 			<Metadata name="Catalog.ФизическиеЛица.TabularSection.Склонения" id="ac69d18e-8e60-45ac-b636-69a0ab9f676e"/>
 		</Metadata>
 		<Metadata name="Catalog.ФизическиеЛица.ObjectModule" id="dc73b34a-28fe-4132-b9b8-5db7364e8685.0" configVersion="33ba2968be3b764cbedc5ab34f237f1900000000"/>
-		<Metadata name="CommonModule.ОбменТелеграмСервер" id="91aa5aa1-4149-4ee3-bfc3-2570e595ee2b" configVersion="c78bf95ecb0e634f994b7f8828908eae00000000"/>
-		<Metadata name="CommonModule.ОбменТелеграмСервер.Module" id="91aa5aa1-4149-4ee3-bfc3-2570e595ee2b.0" configVersion="96c2c19bfb22a24c844a5cdec6f01a8b00000000"/>
+		<Metadata name="CommonModule.ОбменТелеграмСервер" id="91aa5aa1-4149-4ee3-bfc3-2570e595ee2b" configVersion="c28abb81df19f441a475461e2573898000000000"/>
+		<Metadata name="CommonModule.ОбменТелеграмСервер.Module" id="91aa5aa1-4149-4ee3-bfc3-2570e595ee2b.0" configVersion="d548c4e077df234f8db730a6f347b0e500000000"/>
 		<Metadata name="CommonModule.ПроверкаЧеков" id="a37f732e-d652-4c17-9e23-33589c9098ee" configVersion="e38bd3c4a47f01429b6d8e6aea2b05a600000000"/>
 		<Metadata name="CommonModule.ПроверкаЧеков.Module" id="a37f732e-d652-4c17-9e23-33589c9098ee.0" configVersion="3030a4273ef34b4bb3e6ecbddae520fb00000000"/>
-		<Metadata name="CommonModule.РасчетЗарплатыСервер" id="e74f91f6-ca85-4298-8332-10464c60eafc" configVersion="c35a14d6f3a75241b36724c2ddba942900000000"/>
-		<Metadata name="CommonModule.РасчетЗарплатыСервер.Module" id="e74f91f6-ca85-4298-8332-10464c60eafc.0" configVersion="ecdfc59ea5da05409dc3adaf3c2aecd300000000"/>
 		<Metadata name="CommonModule.РегламентныеПроцедурыСервер" id="b10bf690-a33d-4264-880b-27944b5ee699" configVersion="b0ed5d8238459147b0b94f20b79ffc9e00000000"/>
 		<Metadata name="CommonModule.РегламентныеПроцедурыСервер.Module" id="b10bf690-a33d-4264-880b-27944b5ee699.0" configVersion="6433cf77d9dd114b857ff98dae1216fe00000000"/>
 		<Metadata name="CommonModule.СлужебныеПроцедурыКлиентСервер" id="2e197da6-6e94-4def-b551-44585bd2fb15" configVersion="d30888e7a3782e42aeea953d09d822b200000000"/>
 		<Metadata name="CommonModule.СлужебныеПроцедурыКлиентСервер.Module" id="2e197da6-6e94-4def-b551-44585bd2fb15.0" configVersion="2b61b1b72e439c42a6355acb3b41996200000000"/>
 		<Metadata name="CommonModule.СлужебныеПроцедурыСервер" id="8efc7b21-b675-49f5-9b29-2b58de9efde2" configVersion="6ff8144ce578054b9baf991d0823463900000000"/>
 		<Metadata name="CommonModule.СлужебныеПроцедурыСервер.Module" id="8efc7b21-b675-49f5-9b29-2b58de9efde2.0" configVersion="8f38f24ef9529c45ad5a0406d2df883200000000"/>
-		<Metadata name="Configuration.Бюджет" id="c9a7923c-8868-46c8-83b4-5064b218c1d6" configVersion="4a5380801a30ff4aa30f80eca01ef5aa00000000"/>
+		<Metadata name="Configuration.Бюджет" id="c9a7923c-8868-46c8-83b4-5064b218c1d6" configVersion="a7eb4ca1294eb34db4a5dbe89566934e00000000"/>
 		<Metadata name="Configuration.Бюджет.HomePageWorkArea" id="dfb30581-01e3-4f4a-92fe-da305b0ad98d.8" configVersion="62df29e05eaa434ba06c6ce373bf82ca00000000"/>
 		<Metadata name="Configuration.Бюджет.ManagedApplicationModule" id="dfb30581-01e3-4f4a-92fe-da305b0ad98d.6" configVersion="05ccee67a95ebe4bbcce852a0300f96000000000"/>
 		<Metadata name="Constant.IAMТокенЯндекс" id="2967b326-e8c5-4cb5-84b6-a27c48dcc8ad" configVersion="36c6a42d59a9654cb0432d3206e8063200000000"/>
