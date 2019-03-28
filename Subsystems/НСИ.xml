@@ -28,7 +28,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СинхронизированныеДанные</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиДетализации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиСведенияКОстатку</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресФайлаСПрокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">acf02be5-d470-4e4d-ba5a-552e2a274db6</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МинимальныйОстатокПрокси</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиПеремещения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИДПапкиЯндекс</xr:Item>

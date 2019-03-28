@@ -151,9 +151,9 @@
 			<ScheduledJob>ОбработкаКоманд</ScheduledJob>
 			<ScheduledJob>ЕжедневныйОтчет</ScheduledJob>
 			<ScheduledJob>ЕжемесячныйОтчет</ScheduledJob>
+			<ScheduledJob>ОбновитьДанныеПрокси</ScheduledJob>
 			<Constant>ИДБота</Constant>
 			<Constant>ЧасовойПояс</Constant>
-			<Constant>АдресФайлаСПрокси</Constant>
 			<Constant>МинимальныйОстатокПрокси</Constant>
 			<Constant>ИДПапкиЯндекс</Constant>
 			<Constant>IAMТокенЯндекс</Constant>

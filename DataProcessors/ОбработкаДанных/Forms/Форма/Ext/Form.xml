@@ -65,35 +65,11 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаЗагрузкаПрокси" id="24">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа загрузка прокси</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа загрузка прокси</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаЗагрузкаПроксиРасширеннаяПодсказка" id="25"/>
-			<ChildItems>
-				<Button name="ЗагрузитьПрокси" id="10">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ЗагрузитьПрокси</CommandName>
-					<ExtendedTooltip name="ЗагрузитьПроксиРасширеннаяПодсказка" id="11"/>
-				</Button>
-				<InputField name="ПротоколПрокси" id="21">
-					<DataPath>ПротоколПрокси</DataPath>
-					<ContextMenu name="ПротоколПроксиКонтекстноеМеню" id="22"/>
-					<ExtendedTooltip name="ПротоколПроксиРасширеннаяПодсказка" id="23"/>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
+		<Button name="ОбновитьПроксиAPI" id="26">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОбновитьПроксиAPI</CommandName>
+			<ExtendedTooltip name="ОбновитьПроксиAPIРасширеннаяПодсказка" id="27"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -215,6 +191,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьЧек</Action>
+		</Command>
+		<Command name="ОбновитьПроксиAPI" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить прокси API</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить прокси API</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьПроксиAPI</Action>
 		</Command>
 	</Commands>
 </Form>
