@@ -140,6 +140,7 @@
 			<Language>Русский</Language>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Главная</Subsystem>
+			<Subsystem>Разработка</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>ПользовательИБ</Role>
@@ -159,6 +160,7 @@
 			<Constant>IAMТокенЯндекс</Constant>
 			<Constant>OAUTHТокен</Constant>
 			<Constant>ОсновнойПрокси</Constant>
+			<Constant>МаксимальнаяСуммаЕжедневныхЗатрат</Constant>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Кошельки</Catalog>
 			<Catalog>Прокси</Catalog>
@@ -182,9 +184,11 @@
 			<Enum>ПриходРасход</Enum>
 			<DataProcessor>ОбработкаДанных</DataProcessor>
 			<DataProcessor>АвторизацияВФНС</DataProcessor>
+			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>СинхронизированныеДанные</InformationRegister>
 			<InformationRegister>ДанныеАвторизацииФНС</InformationRegister>
 			<InformationRegister>ПланируемыеДоходыРасходы</InformationRegister>
+			<InformationRegister>ДопустимыеЗатратыЗаДень</InformationRegister>
 			<AccumulationRegister>Средства</AccumulationRegister>
 			<AccumulationRegister>Долги</AccumulationRegister>
 			<AccumulationRegister>КупленныеТовары</AccumulationRegister>

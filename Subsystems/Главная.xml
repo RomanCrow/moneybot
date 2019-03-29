@@ -20,7 +20,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Операция</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Средства</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбработкаДанных</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">906422e4-5363-41f5-b27d-3d155cc320e3</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Долги</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПересчетДолга</xr:Item>
@@ -30,6 +29,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПокупкаПродажаТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Товары</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПланируемыеДоходыРасходы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДопустимыеЗатратыЗаДень</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.МаксимальнаяСуммаЕжедневныхЗатрат</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
