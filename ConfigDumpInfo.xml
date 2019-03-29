@@ -226,13 +226,13 @@
 		<Metadata name="Role.Администратор.Rights" id="3f952dcc-336b-436d-82b2-818519e86bc1.0" configVersion="1e7139c20480114ca3f13867da214bf700000000"/>
 		<Metadata name="Role.ПользовательИБ" id="f7686a97-db0d-4aec-93c1-f4181e7c1db3" configVersion="5b3b541e741653409a2fe7d7c133cc3f00000000"/>
 		<Metadata name="Role.ПользовательИБ.Rights" id="f7686a97-db0d-4aec-93c1-f4181e7c1db3.0" configVersion="5d4da3dd6f04424ba8b7e85a4069fad700000000"/>
-		<Metadata name="ScheduledJob.ЕжедневныйОтчет" id="996fabdd-0546-4f26-8750-e7e340d9cfca" configVersion="69b630505a4a0b4a950233a3fe46465700000000"/>
+		<Metadata name="ScheduledJob.ЕжедневныйОтчет" id="996fabdd-0546-4f26-8750-e7e340d9cfca" configVersion="f5084ec14d1f794f8c841d1032cfad1400000000"/>
 		<Metadata name="ScheduledJob.ЕжедневныйОтчет.Schedule" id="996fabdd-0546-4f26-8750-e7e340d9cfca.0" configVersion="96811d7a5379634c844c1f9c9d64bd4900000000"/>
-		<Metadata name="ScheduledJob.ЕжемесячныйОтчет" id="1f6d6849-d9c9-44c8-bff0-b57a6db84a8d" configVersion="225d6605faa8bb4ab31dc17973e84b0500000000"/>
+		<Metadata name="ScheduledJob.ЕжемесячныйОтчет" id="1f6d6849-d9c9-44c8-bff0-b57a6db84a8d" configVersion="4ad0e99965f48c4395d5ad6a90bfa69900000000"/>
 		<Metadata name="ScheduledJob.ЕжемесячныйОтчет.Schedule" id="1f6d6849-d9c9-44c8-bff0-b57a6db84a8d.0" configVersion="76dc63dc49b8d64eb7f4346a6905b13400000000"/>
-		<Metadata name="ScheduledJob.ОбновитьДанныеПрокси" id="ee1352ad-6bd1-448e-819a-b27d1df5e547" configVersion="f09d9f599b33a8469064d3d1cf345a9400000000"/>
+		<Metadata name="ScheduledJob.ОбновитьДанныеПрокси" id="ee1352ad-6bd1-448e-819a-b27d1df5e547" configVersion="45378e0ad55ef8479f42c0af3765ec9900000000"/>
 		<Metadata name="ScheduledJob.ОбновитьДанныеПрокси.Schedule" id="ee1352ad-6bd1-448e-819a-b27d1df5e547.0" configVersion="7eb7b9343511ac478697f1b6152d814000000000"/>
-		<Metadata name="ScheduledJob.ОбработкаКоманд" id="a42367bd-2486-4e8f-9d36-fcc33751f3e1" configVersion="6910f542f33b7a4fb9dba979f522ca3500000000"/>
+		<Metadata name="ScheduledJob.ОбработкаКоманд" id="a42367bd-2486-4e8f-9d36-fcc33751f3e1" configVersion="5bb08a256414094e9102c7fd7128e96500000000"/>
 		<Metadata name="ScheduledJob.ОбработкаКоманд.Schedule" id="a42367bd-2486-4e8f-9d36-fcc33751f3e1.0" configVersion="7d80d6822768184b896ffc281ba7764300000000"/>
 		<Metadata name="SessionParameter.ТекущийПользователь" id="6c6723e2-0623-4f66-aab4-ede837caf5a0" configVersion="5454de7e53d4cf498c3be30a69ab222100000000"/>
 		<Metadata name="Subsystem.Главная" id="50421680-bcef-4f59-ba3e-f810343bd5b8" configVersion="0682ecc8d37c34439e339c0b789815d800000000"/>

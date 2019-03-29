@@ -13,8 +13,8 @@
 			<MethodName>CommonModule.РегламентныеПроцедурыСервер.ОтправитьЕжемесячныйОтчетРегламент</MethodName>
 			<Description>Ежемесячный отчет</Description>
 			<Key/>
-			<Use>false</Use>
-			<Predefined>false</Predefined>
+			<Use>true</Use>
+			<Predefined>true</Predefined>
 			<RestartCountOnFailure>3</RestartCountOnFailure>
 			<RestartIntervalOnFailure>10</RestartIntervalOnFailure>
 		</Properties>
