@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<Subsystem uuid="7be8bcc1-7bc6-4092-9e94-a586b04a63d7">
 		<Properties>
 			<Name>НСИ</Name>
@@ -28,20 +28,19 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СинхронизированныеДанные</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиДетализации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиСведенияКОстатку</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">acf02be5-d470-4e4d-ba5a-552e2a274db6</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МинимальныйОстатокПрокси</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиПеремещения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИДПапкиЯндекс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИДКаталогаЯндекс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.IAMТокенЯндекс</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.OAUTHТокен</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">906422e4-5363-41f5-b27d-3d155cc320e3</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОсновнойПрокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.OAUTHТокенЯндекс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеАвторизацииФНС</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыПрокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьПрокси</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>КлючиАнализа</Subsystem>
+			<Subsystem>ЯндексSpeechKit</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>
