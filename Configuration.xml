@@ -178,10 +178,12 @@
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Главная</Subsystem>
 			<Subsystem>Разработка</Subsystem>
+			<Subsystem>НейронныеСети</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>ПользовательИБ</Role>
 			<CommonModule>ОбменТелеграм</CommonModule>
+			<CommonModule>ОбменЯндекс</CommonModule>
 			<CommonModule>ОбработкаКоманд</CommonModule>
 			<CommonModule>Пользователи</CommonModule>
 			<CommonModule>ПроверкаЧеков</CommonModule>
@@ -193,23 +195,27 @@
 			<Constant>ИДБота</Constant>
 			<Constant>ИДКаталогаЯндекс</Constant>
 			<Constant>ИспользоватьПрокси</Constant>
+			<Constant>ИспользоватьРаспознаваниеРечи</Constant>
 			<Constant>МаксимальнаяСуммаЕжедневныхЗатрат</Constant>
 			<Constant>МинимальныйОстатокПрокси</Constant>
 			<Constant>ЧасовойПояс</Constant>
-			<Catalog>Пользователи</Catalog>
-			<Catalog>Кошельки</Catalog>
-			<Catalog>Прокси</Catalog>
+			<Catalog>ВидыВходовНейрона</Catalog>
+			<Catalog>Долг</Catalog>
+			<Catalog>КлючиДетализации</Catalog>
+			<Catalog>КлючиОстатка</Catalog>
+			<Catalog>КлючиПеремещения</Catalog>
 			<Catalog>КлючиПрихода</Catalog>
 			<Catalog>КлючиРасхода</Catalog>
-			<Catalog>КлючиОстатка</Catalog>
-			<Catalog>СтатьиДоходаРасхода</Catalog>
-			<Catalog>КлючиСтатейДоходаРасхода</Catalog>
-			<Catalog>КлючиДетализации</Catalog>
 			<Catalog>КлючиСведенияКОстатку</Catalog>
-			<Catalog>КлючиПеремещения</Catalog>
-			<Catalog>ФизическиеЛица</Catalog>
-			<Catalog>Долг</Catalog>
+			<Catalog>КлючиСтатейДоходаРасхода</Catalog>
+			<Catalog>Кошельки</Catalog>
+			<Catalog>ЛинейныеНейронныеСети</Catalog>
+			<Catalog>Нейроны</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>Прокси</Catalog>
+			<Catalog>СтатьиДоходаРасхода</Catalog>
 			<Catalog>Товары</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Document>Операция</Document>
 			<Document>ПересчетДолга</Document>
 			<Document>ПокупкаПродажаТоваров</Document>
@@ -225,6 +231,7 @@
 			<InformationRegister>ДанныеАвторизацииФНС</InformationRegister>
 			<InformationRegister>ПланируемыеДоходыРасходы</InformationRegister>
 			<InformationRegister>ДопустимыеЗатратыЗаДень</InformationRegister>
+			<InformationRegister>НейронныеСети</InformationRegister>
 			<AccumulationRegister>Средства</AccumulationRegister>
 			<AccumulationRegister>Долги</AccumulationRegister>
 			<AccumulationRegister>КупленныеТовары</AccumulationRegister>

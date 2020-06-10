@@ -36,6 +36,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеАвторизацииФНС</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыПрокси</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьПрокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьРаспознаваниеРечи</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
