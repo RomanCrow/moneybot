@@ -1,26 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
-	<Catalog uuid="9c529ea5-af18-48fd-94d2-b16b993ce1c5">
+	<ChartOfCharacteristicTypes uuid="9883df55-a491-40cb-91ff-3391be870ea5">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ВидыВходовНейрона" category="Object">
-				<xr:TypeId>6f462958-0075-4ac1-a41f-8fbd689d3900</xr:TypeId>
-				<xr:ValueId>888c4963-3a03-4f1d-b88c-e779cb4a1174</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ВидыВходовНейрона" category="Object">
+				<xr:TypeId>3528514f-80ca-4f13-826c-2fcd42fc9294</xr:TypeId>
+				<xr:ValueId>f2c0a44d-661c-45af-803c-0513a221e2af</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ВидыВходовНейрона" category="Ref">
-				<xr:TypeId>f87c44aa-22bd-4009-9b38-ccec6bfc2dc4</xr:TypeId>
-				<xr:ValueId>aa45a29a-80f8-4aff-9c63-38366497b313</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ВидыВходовНейрона" category="Ref">
+				<xr:TypeId>c1b366e9-65f2-4517-aa45-4faf4c33039c</xr:TypeId>
+				<xr:ValueId>275aae6c-4a55-4414-84c8-c583daee2bf4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ВидыВходовНейрона" category="Selection">
-				<xr:TypeId>f1d13e20-3e13-460d-8604-6038412be763</xr:TypeId>
-				<xr:ValueId>b93ea309-159f-470e-b5fe-c85a2f5a6b76</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ВидыВходовНейрона" category="Selection">
+				<xr:TypeId>3ca0eb90-40ba-430c-bc14-78bde0653979</xr:TypeId>
+				<xr:ValueId>78a208b9-5f7b-40b8-9dde-f981686c2b1a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ВидыВходовНейрона" category="List">
-				<xr:TypeId>95604ed1-266e-4f71-b21c-a720a7454fe4</xr:TypeId>
-				<xr:ValueId>47a1ac12-c68e-4be3-9372-d2cc545d0d3c</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ВидыВходовНейрона" category="List">
+				<xr:TypeId>053700af-cd6c-43e9-a38b-7493aa417488</xr:TypeId>
+				<xr:ValueId>e01e166c-26f7-4ae4-8d49-58da99c42e3a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ВидыВходовНейрона" category="Manager">
-				<xr:TypeId>99366257-27c1-4328-881c-0e2616f15155</xr:TypeId>
-				<xr:ValueId>e9877c67-c5cb-45a9-b8e1-9a058a757cdc</xr:ValueId>
+			<xr:GeneratedType name="Characteristic.ВидыВходовНейрона" category="Characteristic">
+				<xr:TypeId>00f48dca-e977-4fb6-829b-e802b2923a2b</xr:TypeId>
+				<xr:ValueId>704852b2-690b-4f2b-af3d-7a49d951cb09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ВидыВходовНейрона" category="Manager">
+				<xr:TypeId>242cb0e7-acd6-4397-ab06-c2b2f2e9141b</xr:TypeId>
+				<xr:ValueId>a4f49f68-02aa-441a-b54c-12160be42136</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -32,19 +36,23 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>false</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>false</LimitLevelCount>
-			<LevelCount>2</LevelCount>
-			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
-			<SubordinationUse>ToItems</SubordinationUse>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CharacteristicExtValues/>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:Type>cfg:CatalogRef.Униграммы</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Hierarchical>false</Hierarchical>
+			<FoldersOnTop>true</FoldersOnTop>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>50</DescriptionLength>
-			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WholeCatalog</CodeSeries>
+			<DescriptionLength>70</DescriptionLength>
+			<CodeSeries>WholeCharacteristicKind</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
@@ -54,12 +62,14 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ВидыВходовНейрона.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ВидыВходовНейрона.StandardAttribute.Code</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.ВидыВходовНейрона.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.ВидыВходовНейрона.StandardAttribute.Code</xr:Field>
 			</InputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DefaultObjectForm/>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
@@ -70,7 +80,6 @@
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
 			<AuxiliaryFolderChoiceForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<BasedOn/>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -80,12 +89,10 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<CreateOnInput>Use</CreateOnInput>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects/>
-	</Catalog>
+	</ChartOfCharacteristicTypes>
 </MetaDataObject>

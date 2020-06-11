@@ -190,6 +190,7 @@
 			<CommonModule>СлужебныеПроцедуры</CommonModule>
 			<CommonModule>СлужебныеПроцедурыВызовСервера</CommonModule>
 			<CommonModule>СлужебныеПроцедурыКлиентСервер</CommonModule>
+			<CommonModule>НейронныеСети</CommonModule>
 			<Constant>IAMТокенЯндекс</Constant>
 			<Constant>OAUTHТокенЯндекс</Constant>
 			<Constant>ИДБота</Constant>
@@ -199,7 +200,6 @@
 			<Constant>МаксимальнаяСуммаЕжедневныхЗатрат</Constant>
 			<Constant>МинимальныйОстатокПрокси</Constant>
 			<Constant>ЧасовойПояс</Constant>
-			<Catalog>ВидыВходовНейрона</Catalog>
 			<Catalog>Долг</Catalog>
 			<Catalog>КлючиДетализации</Catalog>
 			<Catalog>КлючиОстатка</Catalog>
@@ -210,12 +210,12 @@
 			<Catalog>КлючиСтатейДоходаРасхода</Catalog>
 			<Catalog>Кошельки</Catalog>
 			<Catalog>ЛинейныеНейронныеСети</Catalog>
-			<Catalog>Нейроны</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Прокси</Catalog>
 			<Catalog>СтатьиДоходаРасхода</Catalog>
 			<Catalog>Товары</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>Униграммы</Catalog>
 			<Document>Операция</Document>
 			<Document>ПересчетДолга</Document>
 			<Document>ПокупкаПродажаТоваров</Document>
@@ -235,6 +235,8 @@
 			<AccumulationRegister>Средства</AccumulationRegister>
 			<AccumulationRegister>Долги</AccumulationRegister>
 			<AccumulationRegister>КупленныеТовары</AccumulationRegister>
+			<ChartOfCharacteristicTypes>ВидыВходовНейрона</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ВидыНейронов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

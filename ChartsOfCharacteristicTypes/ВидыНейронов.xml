@@ -1,50 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
-	<Catalog uuid="ed762690-7067-4b5f-a361-c422ed694f28">
+	<ChartOfCharacteristicTypes uuid="5de6bd6e-0431-4788-a76e-34285b35de2b">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Нейроны" category="Object">
-				<xr:TypeId>c80a2850-8333-4449-9a28-5cdace8b31ee</xr:TypeId>
-				<xr:ValueId>47322af4-d505-4ea7-878c-55582884e398</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ВидыНейронов" category="Object">
+				<xr:TypeId>89d0e696-2601-44d9-ac99-de09a76b4852</xr:TypeId>
+				<xr:ValueId>b91c8ee2-6e90-4f1f-b027-ccdc831b6bf9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Нейроны" category="Ref">
-				<xr:TypeId>69c78f80-3076-4018-96ef-424e19d27db8</xr:TypeId>
-				<xr:ValueId>fc16beb2-d7a6-4093-a4ca-58991bf2691a</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ВидыНейронов" category="Ref">
+				<xr:TypeId>6ef4b8b5-2eac-453f-9229-fa9396e9f7e1</xr:TypeId>
+				<xr:ValueId>cdc10166-a04f-499b-ba69-dd8ce5eee0a9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Нейроны" category="Selection">
-				<xr:TypeId>c49baf86-8ac1-4a4c-bbe7-844cb80ef9c3</xr:TypeId>
-				<xr:ValueId>ad73d3ee-2705-490d-bd35-0e3dcb86b2cf</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ВидыНейронов" category="Selection">
+				<xr:TypeId>cfff392d-90c7-42b0-a68e-886466128893</xr:TypeId>
+				<xr:ValueId>a054f6c6-93a4-4ea4-b254-8d63906a096c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Нейроны" category="List">
-				<xr:TypeId>b912d3ed-249c-47db-ba4c-d04360ab0ecb</xr:TypeId>
-				<xr:ValueId>b7017ca6-5dbc-475d-9723-9fb8fd0194fe</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ВидыНейронов" category="List">
+				<xr:TypeId>18bece46-92e1-43ac-959f-681f6a8013a5</xr:TypeId>
+				<xr:ValueId>a56a5f23-eb95-4aa3-8496-5a2cb32a8ec5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Нейроны" category="Manager">
-				<xr:TypeId>c7c55ac2-fa3d-4adc-ad45-6a6110f0bfc4</xr:TypeId>
-				<xr:ValueId>98528d40-427b-4204-9e9d-bc19f33af6fe</xr:ValueId>
+			<xr:GeneratedType name="Characteristic.ВидыНейронов" category="Characteristic">
+				<xr:TypeId>4440b998-a174-40bb-a5ee-6c1f83078ff0</xr:TypeId>
+				<xr:ValueId>76b0b425-4f49-417f-86de-82c110c6b9d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ВидыНейронов" category="Manager">
+				<xr:TypeId>8294d1c3-5a30-45dc-a3a3-5494ad09867d</xr:TypeId>
+				<xr:ValueId>a2f7b4d6-36e8-4076-9a66-ff1c4444579d</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Нейроны</Name>
+			<Name>ВидыНейронов</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Нейроны</v8:content>
+					<v8:content>Виды нейронов</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>false</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>false</LimitLevelCount>
-			<LevelCount>2</LevelCount>
-			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
-			<SubordinationUse>ToItems</SubordinationUse>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CharacteristicExtValues/>
+			<Type>
+				<v8:Type>cfg:EnumRef.ПриходРасход</v8:Type>
+				<v8:Type>cfg:EnumRef.ВидыСредств</v8:Type>
+				<v8:Type>cfg:EnumRef.ТипыОпераций</v8:Type>
+				<v8:Type>cfg:EnumRef.ТипыПрокси</v8:Type>
+				<v8:Type>cfg:EnumRef.Операции</v8:Type>
+			</Type>
+			<Hierarchical>false</Hierarchical>
+			<FoldersOnTop>true</FoldersOnTop>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>75</DescriptionLength>
-			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WholeCatalog</CodeSeries>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeSeries>WholeCharacteristicKind</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
@@ -54,12 +61,14 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Нейроны.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Нейроны.StandardAttribute.Code</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.ВидыНейронов.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.ВидыНейронов.StandardAttribute.Code</xr:Field>
 			</InputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DefaultObjectForm/>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
@@ -70,7 +79,6 @@
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
 			<AuxiliaryFolderChoiceForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<BasedOn/>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -80,12 +88,10 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<CreateOnInput>Use</CreateOnInput>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects/>
-	</Catalog>
+	</ChartOfCharacteristicTypes>
 </MetaDataObject>
