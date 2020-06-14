@@ -182,6 +182,7 @@
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>ПользовательИБ</Role>
+			<CommonTemplate>АнализТекстаСообщенияНейроннаяСеть</CommonTemplate>
 			<CommonModule>ОбменТелеграм</CommonModule>
 			<CommonModule>ОбменЯндекс</CommonModule>
 			<CommonModule>ОбработкаКоманд</CommonModule>

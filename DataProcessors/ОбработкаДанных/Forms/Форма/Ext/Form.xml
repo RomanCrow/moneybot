@@ -147,6 +147,35 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="АнализНейросети" id="50">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Анализ нейросети</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Анализ нейросети</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="АнализНейросетиРасширеннаяПодсказка" id="51"/>
+			<ChildItems>
+				<InputField name="ТекстСообщенияАнализа" id="52">
+					<DataPath>ТекстСообщенияАнализа</DataPath>
+					<ContextMenu name="ТекстСообщенияАнализаКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ТекстСообщенияАнализаРасширеннаяПодсказка" id="54"/>
+				</InputField>
+				<Button name="ВычислитьВероятности" id="48">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ВычислитьВероятности</CommandName>
+					<ExtendedTooltip name="ВычислитьВероятностиРасширеннаяПодсказка" id="49"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -216,6 +245,21 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.ЛинейныеНейронныеСети</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстСообщенияАнализа" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст сообщения анализа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -384,6 +428,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаполнитьНейроны</Action>
+		</Command>
+		<Command name="ВычислитьВероятности" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вычислить вероятности</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вычислить вероятности</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВычислитьВероятности</Action>
 		</Command>
 	</Commands>
 </Form>

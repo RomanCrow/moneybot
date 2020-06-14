@@ -66,18 +66,18 @@
 		<ChildObjects>
 			<Resource uuid="7fbd3991-eb11-4e3d-af29-34b2c4e7a2ec">
 				<Properties>
-					<Name>ВесаВходовНейрона</Name>
+					<Name>Вес</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Веса входов нейрона</v8:content>
+							<v8:content>Вес</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
+							<v8:Digits>15</v8:Digits>
 							<v8:FractionDigits>2</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
