@@ -182,7 +182,9 @@
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>ПользовательИБ</Role>
-			<CommonTemplate>АнализТекстаСообщенияНейроннаяСеть</CommonTemplate>
+			<CommonModule>НейронныеСети</CommonModule>
+			<CommonModule>НейронныеСетиВызовСервера</CommonModule>
+			<CommonModule>НейронныеСетиКлиент</CommonModule>
 			<CommonModule>ОбменТелеграм</CommonModule>
 			<CommonModule>ОбменЯндекс</CommonModule>
 			<CommonModule>ОбработкаКоманд</CommonModule>
@@ -191,16 +193,17 @@
 			<CommonModule>СлужебныеПроцедуры</CommonModule>
 			<CommonModule>СлужебныеПроцедурыВызовСервера</CommonModule>
 			<CommonModule>СлужебныеПроцедурыКлиентСервер</CommonModule>
-			<CommonModule>НейронныеСети</CommonModule>
 			<Constant>IAMТокенЯндекс</Constant>
 			<Constant>OAUTHТокенЯндекс</Constant>
 			<Constant>ИДБота</Constant>
 			<Constant>ИДКаталогаЯндекс</Constant>
 			<Constant>ИспользоватьПрокси</Constant>
 			<Constant>ИспользоватьРаспознаваниеРечи</Constant>
+			<Constant>КоэффициентОтклоненияРезультатаНейроннойСети</Constant>
 			<Constant>МаксимальнаяСуммаЕжедневныхЗатрат</Constant>
 			<Constant>МинимальныйОстатокПрокси</Constant>
 			<Constant>ЧасовойПояс</Constant>
+			<Constant>ШагИзмененияВесаСвязейНейронов</Constant>
 			<Catalog>Долг</Catalog>
 			<Catalog>КлючиДетализации</Catalog>
 			<Catalog>КлючиОстатка</Catalog>
@@ -221,10 +224,11 @@
 			<Document>ПересчетДолга</Document>
 			<Document>ПокупкаПродажаТоваров</Document>
 			<Enum>ВидыСредств</Enum>
+			<Enum>ВидыФункцийАктивацииНейрона</Enum>
+			<Enum>Операции</Enum>
+			<Enum>ПриходРасход</Enum>
 			<Enum>ТипыОпераций</Enum>
 			<Enum>ТипыПрокси</Enum>
-			<Enum>ПриходРасход</Enum>
-			<Enum>Операции</Enum>
 			<DataProcessor>ОбработкаДанных</DataProcessor>
 			<DataProcessor>АвторизацияВФНС</DataProcessor>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
