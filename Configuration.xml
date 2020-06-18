@@ -182,6 +182,9 @@
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>ПользовательИБ</Role>
+			<CommonModule>НейронныеСети</CommonModule>
+			<CommonModule>НейронныеСетиВызовСервера</CommonModule>
+			<CommonModule>НейронныеСетиКлиент</CommonModule>
 			<CommonModule>ОбменТелеграм</CommonModule>
 			<CommonModule>ОбменЯндекс</CommonModule>
 			<CommonModule>ОбработкаКоманд</CommonModule>
@@ -196,10 +199,11 @@
 			<Constant>ИДКаталогаЯндекс</Constant>
 			<Constant>ИспользоватьПрокси</Constant>
 			<Constant>ИспользоватьРаспознаваниеРечи</Constant>
+			<Constant>КоэффициентОтклоненияРезультатаНейроннойСети</Constant>
 			<Constant>МаксимальнаяСуммаЕжедневныхЗатрат</Constant>
 			<Constant>МинимальныйОстатокПрокси</Constant>
 			<Constant>ЧасовойПояс</Constant>
-			<Catalog>ВидыВходовНейрона</Catalog>
+			<Constant>ШагИзмененияВесаСвязейНейронов</Constant>
 			<Catalog>Долг</Catalog>
 			<Catalog>КлючиДетализации</Catalog>
 			<Catalog>КлючиОстатка</Catalog>
@@ -210,20 +214,21 @@
 			<Catalog>КлючиСтатейДоходаРасхода</Catalog>
 			<Catalog>Кошельки</Catalog>
 			<Catalog>ЛинейныеНейронныеСети</Catalog>
-			<Catalog>Нейроны</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Прокси</Catalog>
 			<Catalog>СтатьиДоходаРасхода</Catalog>
 			<Catalog>Товары</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>Униграммы</Catalog>
 			<Document>Операция</Document>
 			<Document>ПересчетДолга</Document>
 			<Document>ПокупкаПродажаТоваров</Document>
 			<Enum>ВидыСредств</Enum>
+			<Enum>ВидыФункцийАктивацииНейрона</Enum>
+			<Enum>Операции</Enum>
+			<Enum>ПриходРасход</Enum>
 			<Enum>ТипыОпераций</Enum>
 			<Enum>ТипыПрокси</Enum>
-			<Enum>ПриходРасход</Enum>
-			<Enum>Операции</Enum>
 			<DataProcessor>ОбработкаДанных</DataProcessor>
 			<DataProcessor>АвторизацияВФНС</DataProcessor>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
@@ -235,6 +240,8 @@
 			<AccumulationRegister>Средства</AccumulationRegister>
 			<AccumulationRegister>Долги</AccumulationRegister>
 			<AccumulationRegister>КупленныеТовары</AccumulationRegister>
+			<ChartOfCharacteristicTypes>ВидыВходовНейрона</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ВидыНейронов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

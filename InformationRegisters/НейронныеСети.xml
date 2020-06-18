@@ -66,18 +66,18 @@
 		<ChildObjects>
 			<Resource uuid="7fbd3991-eb11-4e3d-af29-34b2c4e7a2ec">
 				<Properties>
-					<Name>ВесаВходовНейрона</Name>
+					<Name>Вес</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Веса входов нейрона</v8:content>
+							<v8:content>Вес</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
+							<v8:Digits>15</v8:Digits>
 							<v8:FractionDigits>2</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
@@ -161,7 +161,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Нейроны</v8:Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыНейронов</v8:TypeSet>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -192,18 +192,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="7a5e5064-f504-470a-86cd-343b2d5f16ca">
+			<Dimension uuid="ac42aba7-dd6d-4706-b4d8-780960690cd0">
 				<Properties>
-					<Name>ВходыНейрона</Name>
+					<Name>ВходНейрона</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Входы нейрона</v8:content>
+							<v8:content>Вход нейрона</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ВидыВходовНейрона</v8:Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыВходовНейрона</v8:TypeSet>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
