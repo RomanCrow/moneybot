@@ -18,18 +18,18 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Кошельки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Прокси</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиПрихода</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиРасхода</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиОстатка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a0a4479d-6a23-4fed-a48d-eda6d4612f20</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ec3652d4-dc01-4219-81ca-dd56552adbb7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">52978f11-2cf2-427e-b762-8099df01d112</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатьиДоходаРасхода</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиСтатейДоходаРасхода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">fbe321c0-4a41-4ba5-ad03-f7ca6bbf0e22</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИДБота</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЧасовойПояс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СинхронизированныеДанные</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиДетализации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиСведенияКОстатку</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">9c67cd91-9256-43eb-b986-d22096f814dd</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">41bde612-92be-4201-9bc2-d5b3efcb12f9</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МинимальныйОстатокПрокси</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлючиПеремещения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2abdbf2b-7345-488c-b5a3-a4449c5c8a69</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИДКаталогаЯндекс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.IAMТокенЯндекс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.OAUTHТокенЯндекс</xr:Item>
@@ -40,7 +40,6 @@
 			</Content>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>КлючиАнализа</Subsystem>
 			<Subsystem>ЯндексSpeechKit</Subsystem>
 		</ChildObjects>
 	</Subsystem>

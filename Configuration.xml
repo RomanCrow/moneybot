@@ -182,6 +182,9 @@
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>ПользовательИБ</Role>
+			<CommonTemplate>АнализТекстаСообщения</CommonTemplate>
+			<CommonTemplate>ОпределениеТипаДенежныхСредств</CommonTemplate>
+			<CommonTemplate>ОпределениеТипаПланированияОперации</CommonTemplate>
 			<CommonModule>НейронныеСети</CommonModule>
 			<CommonModule>НейронныеСетиВызовСервера</CommonModule>
 			<CommonModule>НейронныеСетиКлиент</CommonModule>
@@ -199,19 +202,11 @@
 			<Constant>ИДКаталогаЯндекс</Constant>
 			<Constant>ИспользоватьПрокси</Constant>
 			<Constant>ИспользоватьРаспознаваниеРечи</Constant>
-			<Constant>КоэффициентОтклоненияРезультатаНейроннойСети</Constant>
 			<Constant>МаксимальнаяСуммаЕжедневныхЗатрат</Constant>
 			<Constant>МинимальныйОстатокПрокси</Constant>
 			<Constant>ЧасовойПояс</Constant>
 			<Constant>ШагИзмененияВесаСвязейНейронов</Constant>
 			<Catalog>Долг</Catalog>
-			<Catalog>КлючиДетализации</Catalog>
-			<Catalog>КлючиОстатка</Catalog>
-			<Catalog>КлючиПеремещения</Catalog>
-			<Catalog>КлючиПрихода</Catalog>
-			<Catalog>КлючиРасхода</Catalog>
-			<Catalog>КлючиСведенияКОстатку</Catalog>
-			<Catalog>КлючиСтатейДоходаРасхода</Catalog>
 			<Catalog>Кошельки</Catalog>
 			<Catalog>ЛинейныеНейронныеСети</Catalog>
 			<Catalog>Пользователи</Catalog>
@@ -229,6 +224,7 @@
 			<Enum>ПриходРасход</Enum>
 			<Enum>ТипыОпераций</Enum>
 			<Enum>ТипыПрокси</Enum>
+			<Enum>ТипПланированияОперации</Enum>
 			<DataProcessor>ОбработкаДанных</DataProcessor>
 			<DataProcessor>АвторизацияВФНС</DataProcessor>
 			<DataProcessor>КонсольЗапросов</DataProcessor>

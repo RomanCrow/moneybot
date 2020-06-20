@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <HomePageWorkArea xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
-	<WorkingAreaTemplate>OneColumn</WorkingAreaTemplate>
-	<Column>
+	<WorkingAreaTemplate>TwoColumnsVariableWidth</WorkingAreaTemplate>
+	<LeftColumn>
 		<Item>
 			<Form>DataProcessor.ОбработкаДанных.Form.Форма</Form>
 			<Height>10</Height>
@@ -9,5 +9,21 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Item>
-	</Column>
+	</LeftColumn>
+	<RightColumn>
+		<Item>
+			<Form>Catalog.Униграммы.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>Catalog.ЛинейныеНейронныеСети.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Item>
+	</RightColumn>
 </HomePageWorkArea>

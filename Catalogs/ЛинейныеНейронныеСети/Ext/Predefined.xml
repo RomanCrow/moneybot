@@ -6,4 +6,16 @@
 		<Description>Анализ текста сообщения</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="c6e18429-0650-4d54-88e8-d2cfd8b93991">
+		<Name>ОпределениеТипаДенежныхСредств</Name>
+		<Code>000000002</Code>
+		<Description>Определение типа денежных средств</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4734cbea-f07d-4e84-bede-c380935d1c9a">
+		<Name>ОпределениеТипаПланированияОперации</Name>
+		<Code>000000003</Code>
+		<Description>Определение типа планирования операции</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

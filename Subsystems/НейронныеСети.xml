@@ -21,7 +21,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыВходовНейрона</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыНейронов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыФункцийАктивацииНейрона</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.КоэффициентОтклоненияРезультатаНейроннойСети</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">97365242-6278-4e79-9f55-1a456dc894cb</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ШагИзмененияВесаСвязейНейронов</xr:Item>
 			</Content>
 		</Properties>

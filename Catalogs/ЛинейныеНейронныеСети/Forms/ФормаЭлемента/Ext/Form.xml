@@ -6,8 +6,23 @@
 		<ChildItems>
 			<Button name="ФормаЗагрузитьДанныеОбучения" id="16">
 				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
 				<CommandName>Form.Command.ЗагрузитьДанныеОбучения</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.OpenFile</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
 				<ExtendedTooltip name="ФормаЗагрузитьДанныеОбученияРасширеннаяПодсказка" id="17"/>
+			</Button>
+			<Button name="ФормаСохранитьДанныеОбучения" id="23">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Command.СохранитьДанныеОбучения</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Write</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаСохранитьДанныеОбученияРасширеннаяПодсказка" id="24"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -67,6 +82,11 @@
 			<ContextMenu name="ВидНейроновКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ВидНейроновРасширеннаяПодсказка" id="12"/>
 		</InputField>
+		<InputField name="КоэффициентОтклоненияРезультатаНейроннойСети" id="25">
+			<DataPath>Объект.КоэффициентОтклоненияРезультатаНейроннойСети</DataPath>
+			<ContextMenu name="КоэффициентОтклоненияРезультатаНейроннойСетиКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="КоэффициентОтклоненияРезультатаНейроннойСетиРасширеннаяПодсказка" id="27"/>
+		</InputField>
 		<InputField name="КоличествоИтерацийОбучения" id="13">
 			<DataPath>Объект.КоличествоИтерацийОбучения</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -98,6 +118,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьДанныеОбучения</Action>
+		</Command>
+		<Command name="СохранитьДанныеОбучения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить данные обучения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить данные обучения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьДанныеОбучения</Action>
 		</Command>
 	</Commands>
 </Form>

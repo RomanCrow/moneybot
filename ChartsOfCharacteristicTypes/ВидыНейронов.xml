@@ -43,6 +43,7 @@
 				<v8:Type>cfg:EnumRef.ПриходРасход</v8:Type>
 				<v8:Type>cfg:EnumRef.ВидыСредств</v8:Type>
 				<v8:Type>cfg:EnumRef.ТипыОпераций</v8:Type>
+				<v8:Type>cfg:EnumRef.ТипПланированияОперации</v8:Type>
 				<v8:Type>cfg:EnumRef.ТипыПрокси</v8:Type>
 				<v8:Type>cfg:EnumRef.Операции</v8:Type>
 			</Type>

@@ -1,11 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.9">
+	<Item id="fa99887a-77bc-478d-868e-cceab7395d4e">
+		<Name>ВидыДенежныхСредств</Name>
+		<Code>000000002</Code>
+		<Description>Виды денежных средств</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ВидыСредств</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="513d29d5-2ca0-4097-8cca-ca56c950b02a">
 		<Name>Операции</Name>
 		<Code>000000001</Code>
 		<Description>Операции</Description>
 		<Type>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.Операции</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="677193c3-857f-481d-a900-f06b9e33729b">
+		<Name>ТипПланированияОперации</Name>
+		<Code>000000003</Code>
+		<Description>Тип планирования операции</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ТипПланированияОперации</v8:Type>
 		</Type>
 		<IsFolder>false</IsFolder>
 	</Item>
