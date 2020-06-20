@@ -213,8 +213,8 @@
 			<Catalog>Прокси</Catalog>
 			<Catalog>СтатьиДоходаРасхода</Catalog>
 			<Catalog>Товары</Catalog>
-			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Униграммы</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Document>Операция</Document>
 			<Document>ПересчетДолга</Document>
 			<Document>ПокупкаПродажаТоваров</Document>
@@ -222,17 +222,16 @@
 			<Enum>ВидыФункцийАктивацииНейрона</Enum>
 			<Enum>Операции</Enum>
 			<Enum>ПриходРасход</Enum>
-			<Enum>ТипыОпераций</Enum>
-			<Enum>ТипыПрокси</Enum>
 			<Enum>ТипПланированияОперации</Enum>
+			<Enum>ТипыПрокси</Enum>
 			<DataProcessor>ОбработкаДанных</DataProcessor>
 			<DataProcessor>АвторизацияВФНС</DataProcessor>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
-			<InformationRegister>СинхронизированныеДанные</InformationRegister>
 			<InformationRegister>ДанныеАвторизацииФНС</InformationRegister>
-			<InformationRegister>ПланируемыеДоходыРасходы</InformationRegister>
 			<InformationRegister>ДопустимыеЗатратыЗаДень</InformationRegister>
 			<InformationRegister>НейронныеСети</InformationRegister>
+			<InformationRegister>ПланируемыеДоходыРасходы</InformationRegister>
+			<InformationRegister>СинхронизированныеДанные</InformationRegister>
 			<AccumulationRegister>Средства</AccumulationRegister>
 			<AccumulationRegister>Долги</AccumulationRegister>
 			<AccumulationRegister>КупленныеТовары</AccumulationRegister>

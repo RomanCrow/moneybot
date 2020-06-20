@@ -214,7 +214,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.ТипыОпераций</v8:Type>
+						<v8:Type>cfg:EnumRef.Операции</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

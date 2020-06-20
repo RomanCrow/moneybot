@@ -14,7 +14,7 @@
 			<Metadata name="AccumulationRegister.КупленныеТовары.Dimension.Статья" id="a6827120-b73d-4bcd-b952-5a8f7eaf9ba2"/>
 			<Metadata name="AccumulationRegister.КупленныеТовары.Resource.Сумма" id="a72d0425-4571-4f0a-823e-07b9bb6a1dde"/>
 		</Metadata>
-		<Metadata name="AccumulationRegister.Средства" id="54a73f37-d94e-4702-8576-693ec1e7e32e" configVersion="7790a5922a987a4599a4fb138f8cc12c00000000">
+		<Metadata name="AccumulationRegister.Средства" id="54a73f37-d94e-4702-8576-693ec1e7e32e" configVersion="13205ee24a4ad24c956366af00dda6d600000000">
 			<Metadata name="AccumulationRegister.Средства.Dimension.Кошелек" id="0d06b512-2cf8-42f4-9984-e8db9d6d1e7c"/>
 			<Metadata name="AccumulationRegister.Средства.Dimension.Пользователь" id="0d810e1a-e00b-48fd-946c-b6419d20fd3e"/>
 			<Metadata name="AccumulationRegister.Средства.Dimension.ТипОперации" id="19911487-3fac-4865-aba4-f8f33ede6b93"/>
@@ -84,7 +84,7 @@
 		<Metadata name="Catalog.ФизическиеЛица.ObjectModule" id="dc73b34a-28fe-4132-b9b8-5db7364e8685.0" configVersion="889ce482055e1640bf10210253c8e2e500000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыВходовНейрона" id="9883df55-a491-40cb-91ff-3391be870ea5" configVersion="150f76f4d8b597478fea70397b42c54b00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыВходовНейрона.Predefined" id="9883df55-a491-40cb-91ff-3391be870ea5.7" configVersion="85a2352f4964424480be96504b9d261500000000"/>
-		<Metadata name="ChartOfCharacteristicTypes.ВидыНейронов" id="5de6bd6e-0431-4788-a76e-34285b35de2b" configVersion="213648cd2a6cea4cafebbfbe44d2031400000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыНейронов" id="5de6bd6e-0431-4788-a76e-34285b35de2b" configVersion="8466455c2e7d8944bcff46e5f6f070fb00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыНейронов.Predefined" id="5de6bd6e-0431-4788-a76e-34285b35de2b.7" configVersion="fba919c5a3b5314284b74d2b16624c6d00000000"/>
 		<Metadata name="CommonModule.НейронныеСети" id="307ff5b1-f81d-4a35-81ce-e84b43fb8230" configVersion="83e71ad507482248bdaf903a5b03470a00000000"/>
 		<Metadata name="CommonModule.НейронныеСети.Module" id="307ff5b1-f81d-4a35-81ce-e84b43fb8230.0" configVersion="bb9f192156e0a541a5faa9e6b56ad11800000000"/>
@@ -92,12 +92,12 @@
 		<Metadata name="CommonModule.НейронныеСетиВызовСервера.Module" id="9910f17a-3575-420a-84e6-4312aa6a414d.0" configVersion="7a305c9268e99e4d850128188827a15c00000000"/>
 		<Metadata name="CommonModule.НейронныеСетиКлиент" id="ce950b83-5383-46b8-b00e-a5a3cf09d525" configVersion="2508f4ff9be7a5478e9c90cb37c5d63b00000000"/>
 		<Metadata name="CommonModule.НейронныеСетиКлиент.Module" id="ce950b83-5383-46b8-b00e-a5a3cf09d525.0" configVersion="b6adbb540c17bd46b49e93332eb21a7200000000"/>
-		<Metadata name="CommonModule.ОбменТелеграм" id="91aa5aa1-4149-4ee3-bfc3-2570e595ee2b" configVersion="9525e034df3a82499dfd682148021c0800000000"/>
-		<Metadata name="CommonModule.ОбменТелеграм.Module" id="91aa5aa1-4149-4ee3-bfc3-2570e595ee2b.0" configVersion="465b525fdf3c7540854f50367d05f9e500000000"/>
+		<Metadata name="CommonModule.ОбменТелеграм" id="91aa5aa1-4149-4ee3-bfc3-2570e595ee2b" configVersion="261cf560c1564947b615fe9f0e5f307d00000000"/>
+		<Metadata name="CommonModule.ОбменТелеграм.Module" id="91aa5aa1-4149-4ee3-bfc3-2570e595ee2b.0" configVersion="adbd294766280646aebefe037366067600000000"/>
 		<Metadata name="CommonModule.ОбменЯндекс" id="a4511fa1-6c51-43b8-a7c3-920f240f9148" configVersion="62480cba93140545bd1ddf1ee2a3f90100000000"/>
 		<Metadata name="CommonModule.ОбменЯндекс.Module" id="a4511fa1-6c51-43b8-a7c3-920f240f9148.0" configVersion="67eef3e706c16c47be882b9093cb886400000000"/>
-		<Metadata name="CommonModule.ОбработкаКоманд" id="6825fa65-186b-4426-ba33-c9dc9244d5fd" configVersion="db019feebe4fc8408a1e727b72ec79eb00000000"/>
-		<Metadata name="CommonModule.ОбработкаКоманд.Module" id="6825fa65-186b-4426-ba33-c9dc9244d5fd.0" configVersion="3b42eedf2dffd5449ad0f1d5fef6cb7700000000"/>
+		<Metadata name="CommonModule.ОбработкаКоманд" id="6825fa65-186b-4426-ba33-c9dc9244d5fd" configVersion="3520c06f4a4c7b4d9b77aaa26f5f995e00000000"/>
+		<Metadata name="CommonModule.ОбработкаКоманд.Module" id="6825fa65-186b-4426-ba33-c9dc9244d5fd.0" configVersion="c7a7e658e7344a4d9a00ba9f4a114ec300000000"/>
 		<Metadata name="CommonModule.Пользователи" id="b99eb0dc-ed54-43bf-a068-ed590c9b1e98" configVersion="f3d3d58cc415f146b4f34f39a22dbdef00000000"/>
 		<Metadata name="CommonModule.Пользователи.Module" id="b99eb0dc-ed54-43bf-a068-ed590c9b1e98.0" configVersion="6205bcdbd8a93e468acf4a0d8e5b72c100000000"/>
 		<Metadata name="CommonModule.ПроверкаЧеков" id="a37f732e-d652-4c17-9e23-33589c9098ee" configVersion="47d4df7e6b7eda4a98207b69f983869500000000"/>
@@ -114,7 +114,7 @@
 		<Metadata name="CommonTemplate.ОпределениеТипаДенежныхСредств.Template" id="f821b93c-194f-46c1-b357-b96a842a16a7.0" configVersion="8a90462331b4974ea2cbd654ed92c25b00000000"/>
 		<Metadata name="CommonTemplate.ОпределениеТипаПланированияОперации" id="af682809-7b15-4517-9e91-81ca8542b1ec" configVersion="b57ef7349036f84ba07f90fb0406e36600000000"/>
 		<Metadata name="CommonTemplate.ОпределениеТипаПланированияОперации.Template" id="af682809-7b15-4517-9e91-81ca8542b1ec.0" configVersion="c9bbe4d73d1ddb49a554524d3bf4925a00000000"/>
-		<Metadata name="Configuration.Бюджет" id="c9a7923c-8868-46c8-83b4-5064b218c1d6" configVersion="5f3a63caef55d54ebd5c9464f2b8498800000000"/>
+		<Metadata name="Configuration.Бюджет" id="c9a7923c-8868-46c8-83b4-5064b218c1d6" configVersion="baeeee64874b3845b76d782fb8f2f2be00000000"/>
 		<Metadata name="Configuration.Бюджет.HomePageWorkArea" id="dfb30581-01e3-4f4a-92fe-da305b0ad98d.8" configVersion="f156647c634e6e44b0c66e3bea15b1ae00000000"/>
 		<Metadata name="Configuration.Бюджет.ManagedApplicationModule" id="dfb30581-01e3-4f4a-92fe-da305b0ad98d.6" configVersion="b5469d89da22904e96078cb5e26f722000000000"/>
 		<Metadata name="Constant.IAMТокенЯндекс" id="2967b326-e8c5-4cb5-84b6-a27c48dcc8ad" configVersion="a8f2243bce8f7b4497d93ce3ae4c83d500000000"/>
@@ -184,7 +184,7 @@
 		<Metadata name="DataProcessor.ОбработкаДанных" id="61cb52ed-18a0-4d05-a998-c59ad6429421" configVersion="9923e022827abe43b0fef807f5b9f3eb00000000"/>
 		<Metadata name="DataProcessor.ОбработкаДанных.Form.Форма" id="dbb0dd1c-95c0-4fab-b909-2fd49404e4d0" configVersion="218677c30c361847a4034f83db033dda00000000"/>
 		<Metadata name="DataProcessor.ОбработкаДанных.Form.Форма.Form" id="dbb0dd1c-95c0-4fab-b909-2fd49404e4d0.0" configVersion="7dfe7358c7cf0a4383cc61c746b841d400000000"/>
-		<Metadata name="Document.Операция" id="9fc34dfe-9468-46bf-b4e7-64406bc2b271" configVersion="979788a18cdeef4ba6c0fa799f9befa500000000">
+		<Metadata name="Document.Операция" id="9fc34dfe-9468-46bf-b4e7-64406bc2b271" configVersion="4b831518663cf947b8067db86e4a88be00000000">
 			<Metadata name="Document.Операция.Attribute.Комментарий" id="061550f7-541e-4534-8241-5fdb3fa442c0"/>
 			<Metadata name="Document.Операция.Attribute.ТипОперации" id="46d0199e-b5ab-4e47-902d-55a548fc945e"/>
 			<Metadata name="Document.Операция.Attribute.ИДСообщения" id="6f034ece-8078-49ee-b5fa-e2387b4dad22"/>
@@ -196,7 +196,7 @@
 		</Metadata>
 		<Metadata name="Document.Операция.Form.ФормаДокумента" id="82798d89-d45d-4bb1-a351-7d4cbb30b198" configVersion="bf1fa9343f01c04394a70ca289277ef900000000"/>
 		<Metadata name="Document.Операция.Form.ФормаДокумента.Form" id="82798d89-d45d-4bb1-a351-7d4cbb30b198.0" configVersion="fc6268770dccbb40905642190cd5ccbf00000000"/>
-		<Metadata name="Document.Операция.ManagerModule" id="9fc34dfe-9468-46bf-b4e7-64406bc2b271.2" configVersion="0d4185306a2625428a69cf8a7af3206b00000000"/>
+		<Metadata name="Document.Операция.ManagerModule" id="9fc34dfe-9468-46bf-b4e7-64406bc2b271.2" configVersion="0fbc1ebff1c59f4eb8e353decee793a800000000"/>
 		<Metadata name="Document.Операция.ObjectModule" id="9fc34dfe-9468-46bf-b4e7-64406bc2b271.0" configVersion="5d98dc48efdca74d892465e51061bf6100000000"/>
 		<Metadata name="Document.ПересчетДолга" id="382dd051-c25b-4bba-ad34-b33b8d0df582" configVersion="66860848cea4964f8439585eaba87e7c00000000">
 			<Metadata name="Document.ПересчетДолга.Attribute.ИДСообщения" id="405d439c-ba22-44ea-85f9-b4b9dcb950d8"/>
@@ -251,11 +251,6 @@
 		<Metadata name="Enum.ТипПланированияОперации" id="dc41be8e-0c79-40e2-9d83-29f3af3de864" configVersion="e27d58346d109c4d84efe0ba48813e9300000000">
 			<Metadata name="Enum.ТипПланированияОперации.EnumValue.ПлановаяОперация" id="082028f7-1c3a-4d45-9440-81f2ef660875"/>
 			<Metadata name="Enum.ТипПланированияОперации.EnumValue.ФактическаяОперация" id="836e3e82-daf6-4910-8102-ecd629f5ee87"/>
-		</Metadata>
-		<Metadata name="Enum.ТипыОпераций" id="93dabb72-6445-4ec3-bc63-6a2a509d9875" configVersion="38a0225fae1b9d4b8ad2edf3ee51d3b600000000">
-			<Metadata name="Enum.ТипыОпераций.EnumValue.Перемещение" id="0188435e-5127-404d-9f39-d357653c6084"/>
-			<Metadata name="Enum.ТипыОпераций.EnumValue.Расход" id="ba5423c3-61ca-4d18-94e5-6478053db97c"/>
-			<Metadata name="Enum.ТипыОпераций.EnumValue.Приход" id="e69addc2-402f-437b-9584-3ff7050f01a1"/>
 		</Metadata>
 		<Metadata name="Enum.ТипыПрокси" id="6a04d7ea-cbf6-4be9-a135-673dcb10143e" configVersion="098975a80679ea4c80e716b81bcd5fac00000000">
 			<Metadata name="Enum.ТипыПрокси.EnumValue.socks5" id="2afc0058-46fd-4671-b1bd-3f23951dabed"/>
