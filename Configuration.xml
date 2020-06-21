@@ -230,7 +230,7 @@
 			<InformationRegister>ДанныеАвторизацииФНС</InformationRegister>
 			<InformationRegister>ДопустимыеЗатратыЗаДень</InformationRegister>
 			<InformationRegister>НейронныеСети</InformationRegister>
-			<InformationRegister>ПланируемыеДоходыРасходы</InformationRegister>
+			<InformationRegister>ЗапланированныеОперации</InformationRegister>
 			<InformationRegister>СинхронизированныеДанные</InformationRegister>
 			<AccumulationRegister>Средства</AccumulationRegister>
 			<AccumulationRegister>Долги</AccumulationRegister>

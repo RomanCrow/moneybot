@@ -40,11 +40,6 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<Button name="ОбновитьПроксиAPI" id="26">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.ОбновитьПроксиAPI</CommandName>
-			<ExtendedTooltip name="ОбновитьПроксиAPIРасширеннаяПодсказка" id="27"/>
-		</Button>
 		<UsualGroup name="ГруппаЗаполнениеВесовНейронныхСетей" id="46">
 			<Title>
 				<v8:item>
@@ -62,11 +57,6 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЗаполнениеВесовНейронныхСетейРасширеннаяПодсказка" id="47"/>
 			<ChildItems>
-				<Button name="ОбучитьНейроннуюСеть" id="55">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ОбучитьНейроннуюСеть</CommandName>
-					<ExtendedTooltip name="ОбучитьНейроннуюСетьРасширеннаяПодсказка" id="56"/>
-				</Button>
 				<InputField name="НейроннаяСеть" id="43">
 					<DataPath>НейроннаяСеть</DataPath>
 					<ContextMenu name="НейроннаяСетьКонтекстноеМеню" id="44"/>
@@ -180,36 +170,6 @@
 			</ToolTip>
 			<Action>ОбработатьСообщения</Action>
 		</Command>
-		<Command name="ЗагрузитьПрокси" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить прокси</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить прокси</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ЗагрузитьПрокси</Action>
-		</Command>
-		<Command name="ОбновитьIAMЯндекс" id="4">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить IAM</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить IAMЯндекс</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОбновитьIAMЯндекс</Action>
-		</Command>
 		<Command name="ПроверитьЧек" id="5">
 			<Title>
 				<v8:item>
@@ -225,21 +185,6 @@
 			</ToolTip>
 			<Action>ПроверитьЧек</Action>
 		</Command>
-		<Command name="ОбновитьПроксиAPI" id="6">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить прокси API</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить прокси API</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОбновитьПроксиAPI</Action>
-		</Command>
 		<Command name="ВычислитьВероятности" id="12">
 			<Title>
 				<v8:item>
@@ -254,21 +199,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВычислитьВероятности</Action>
-		</Command>
-		<Command name="ОбучитьНейроннуюСеть" id="13">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Обучить нейронную сеть</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Обучить нейронную сеть</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОбучитьНейроннуюСеть</Action>
 		</Command>
 	</Commands>
 </Form>

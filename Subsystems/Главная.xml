@@ -28,7 +28,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КупленныеТовары</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПокупкаПродажаТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Товары</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПланируемыеДоходыРасходы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗапланированныеОперации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДопустимыеЗатратыЗаДень</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МаксимальнаяСуммаЕжедневныхЗатрат</xr:Item>
 			</Content>
