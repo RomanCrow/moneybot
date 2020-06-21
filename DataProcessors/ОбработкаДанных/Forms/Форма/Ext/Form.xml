@@ -6,11 +6,36 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<Button name="ОбработатьСообщения" id="1">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.ОбработатьСообщения</CommandName>
-			<ExtendedTooltip name="ОбработатьСообщенияРасширеннаяПодсказка" id="2"/>
-		</Button>
+		<UsualGroup name="ГруппаОбработкаКоманд" id="58">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа обработка команд</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа обработка команд</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОбработкаКомандРасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<Button name="ОбработатьСообщения" id="1">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОбработатьСообщения</CommandName>
+					<ExtendedTooltip name="ОбработатьСообщенияРасширеннаяПодсказка" id="2"/>
+				</Button>
+				<CheckBoxField name="ПостояннаяОбработка" id="55">
+					<DataPath>ПостояннаяОбработка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПостояннаяОбработкаКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ПостояннаяОбработкаРасширеннаяПодсказка" id="57"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаПроверкаЧеков" id="19">
 			<Title>
 				<v8:item>
@@ -151,6 +176,17 @@
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПостояннаяОбработка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Постоянная обработка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
