@@ -100,8 +100,8 @@
 		<Metadata name="CommonModule.ОбменТелеграм.Module" id="91aa5aa1-4149-4ee3-bfc3-2570e595ee2b.0" configVersion="7fee5c73c09d2b45b0e92e1caa6aa19100000000"/>
 		<Metadata name="CommonModule.ОбменЯндекс" id="a4511fa1-6c51-43b8-a7c3-920f240f9148" configVersion="62480cba93140545bd1ddf1ee2a3f90100000000"/>
 		<Metadata name="CommonModule.ОбменЯндекс.Module" id="a4511fa1-6c51-43b8-a7c3-920f240f9148.0" configVersion="67eef3e706c16c47be882b9093cb886400000000"/>
-		<Metadata name="CommonModule.ОбработкаКоманд" id="6825fa65-186b-4426-ba33-c9dc9244d5fd" configVersion="f606d2715bab5f4f84dd87ef9409414a00000000"/>
-		<Metadata name="CommonModule.ОбработкаКоманд.Module" id="6825fa65-186b-4426-ba33-c9dc9244d5fd.0" configVersion="98cab1bfb76edf498197ced8306e10a300000000"/>
+		<Metadata name="CommonModule.ОбработкаКоманд" id="6825fa65-186b-4426-ba33-c9dc9244d5fd" configVersion="a0c8fb5f4f08574694100df045a3c5fa00000000"/>
+		<Metadata name="CommonModule.ОбработкаКоманд.Module" id="6825fa65-186b-4426-ba33-c9dc9244d5fd.0" configVersion="ddd34701c72c7141907392f3a28b4a6600000000"/>
 		<Metadata name="CommonModule.Пользователи" id="b99eb0dc-ed54-43bf-a068-ed590c9b1e98" configVersion="f3d3d58cc415f146b4f34f39a22dbdef00000000"/>
 		<Metadata name="CommonModule.Пользователи.Module" id="b99eb0dc-ed54-43bf-a068-ed590c9b1e98.0" configVersion="6205bcdbd8a93e468acf4a0d8e5b72c100000000"/>
 		<Metadata name="CommonModule.ПроверкаЧеков" id="a37f732e-d652-4c17-9e23-33589c9098ee" configVersion="47d4df7e6b7eda4a98207b69f983869500000000"/>
